@@ -1,6 +1,6 @@
 # SASH
 An attempt to make a shell.<br>
-For tracking history of commands readline library provided by GNU is used.<br>
+Tracking history of commands, using arrow keys to get history and autocomplete using tab are done by using readline library provided by GNU.<br>
 Currently the commands using pipes are not implemented in this shell.
 # To install readline library
 Write this command in terminal:<br>
