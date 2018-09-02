@@ -6,9 +6,10 @@ Currently the commands using pipes are not implemented in this shell.
 Write this command in terminal:<br>
 sudo apt-get install libreadline-dev
 # To run the shell
+Copy the C code and save it as myshell.c in any directory.<br>
 Paste this line in your .bashrc<br>
 alias gmm="gcc myshell.c -L/usr/local/lib -I/usr/local/include -lreadline "<br>
-Then open terminal and write:<br>
+Then open terminal and move to the directory where myshell.c is present and write:<br>
 gmm<br>
 ./a.out<br>
 And there's your shell :)
